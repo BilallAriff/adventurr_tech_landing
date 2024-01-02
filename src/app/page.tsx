@@ -1,13 +1,22 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
+import Navigation from "./sections/navigation/navigation";
+import Header from "./sections/Header/Header";
 
 export default function Home() {
   return (
     <>
-      <Box className="flex-all-center full-screen">
-        <Typography variant={"h2"}>AdventurrTech</Typography>
-      </Box>
+      <Container>
+        <Grid container>
+          <Grid md={12}>
+            <Navigation />
+          </Grid>
+          <Grid md={12}>
+            <Header />
+          </Grid>
+        </Grid>
+      </Container>
     </>
   );
 }
