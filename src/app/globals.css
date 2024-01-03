@@ -1,3 +1,7 @@
+:root {
+  --section-primary-color: #fafbfd;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -39,4 +43,16 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}
+
+.section {
+  margin: 65px 0;
+  background-color: var(--section-primary-color);
+  padding: 100px 0;
+}
+
+.section-sub-text {
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
 }
