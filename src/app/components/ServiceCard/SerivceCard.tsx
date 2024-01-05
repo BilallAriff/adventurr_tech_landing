@@ -10,7 +10,7 @@ const SerivceCard = (props: {
   const { image, title, description } = props;
 
   return (
-    <Box sx={{ width: "180px" }}>
+    <Box sx={{ width: "180px", backgroundColor: "#FFFFFF" }}>
       <Box>
         <img width={"100%"} src={image} />
       </Box>
@@ -21,7 +21,7 @@ const SerivceCard = (props: {
           {title}
         </Typography>
       </Box>
-      <Box>
+      <Box padding={1}>
         <Typography textAlign={"center"} fontWeight={200} fontSize={14}>
           {description}
         </Typography>
