@@ -69,16 +69,13 @@ const Index = () => {
               <div className="about-content wow fadeInUp delay-0-4s">
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">About Company</span>
-                  <h2>
-                    Our Main Goal to Satisficed Local &amp; Global Clients
-                  </h2>
+                  <h2>Your personal Tech &amp; Design team</h2>
                 </div>
                 <div className="content">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium totam aperiam
-                    eaque quae abillo inventore veritatisey et quasi architecto
-                    beatae vitae dictasunt explicabo voluptatem.
+                    Adventurr Tech is your startup's tech partner. We build,
+                    design, and market innovative solutions. Let's create
+                    something amazing together.
                   </p>
                   <Link legacyBehavior href="/about">
                     <a className="read-more mt-10">
@@ -97,7 +94,7 @@ const Index = () => {
         <div className="container-fluid">
           <div className="headline-text marquee">
             <span>
-              Web <span>Design</span> Agency
+              Design <span>Create</span> Launch
             </span>
           </div>
         </div>
@@ -111,17 +108,20 @@ const Index = () => {
               <div className="what-we-do-content mb-55">
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">What We Do</span>
-                  <h2>Latest Way to Get Web Solutions &amp; Business Growth</h2>
+                  <h2>
+                    Latest Way to Get Tech &amp; Design Solutions for Business
+                    Growth
+                  </h2>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-3s">
                   <div className="number">
                     <span>01</span>
                   </div>
                   <div className="content">
-                    <h5>Mobile Solutions</h5>
+                    <h5>Web & Mobile Development</h5>
                     <p>
-                      Sed ut perspiciatis unde omnis natus error voluptatem
-                      accusantium doloremque
+                      Transform your ideas into robust digital experiences. We
+                      craft intuitive and high-performing apps and websites.
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="read-more style-two">
@@ -136,10 +136,10 @@ const Index = () => {
                     <span>02</span>
                   </div>
                   <div className="content">
-                    <h5>Web Solutions</h5>
+                    <h5>Design & Branding</h5>
                     <p>
-                      Quis autem veleum iure reprehe nderitecy quie voluptate
-                      velit esse quam nihile
+                      Create a lasting impression. Our expert designers build
+                      strong brands and captivating visuals.
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="read-more style-two">
@@ -154,10 +154,10 @@ const Index = () => {
                     <span>03</span>
                   </div>
                   <div className="content">
-                    <h5>Custome Solutions</h5>
+                    <h5>Marketing & Sales</h5>
                     <p>
-                      We denounce with righteous indignation and dislike
-                      beguiled demoralized charms
+                      Reach your target audience and drive growth. We develop
+                      effective marketing strategies and sales funnels.
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="read-more style-two">
@@ -419,7 +419,7 @@ const Index = () => {
       </section>
       {/* Project Timeline Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-70 rpt-40">
+      {/* <section className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -624,7 +624,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Headline area start */}
       <div className="headline-area pt-65 rpt-55 rel z-1">

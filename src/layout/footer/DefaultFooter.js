@@ -49,10 +49,7 @@ const DefaultFooter = ({ dark }) => {
           <div className="col-lg-8">
             <div className="footer-left-content pt-80">
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
-                <img
-                  src="assets/images/footer/lets-work.png"
-                  alt="Let's Work Man"
-                />
+                <img src="assets/bilal-arif.jpeg" alt="Let's Work Man" />
                 <span>Let’s Work Together</span>
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
@@ -60,11 +57,12 @@ const DefaultFooter = ({ dark }) => {
                   className="theme-btn style-three"
                   href="mailto:support@gmail.com"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  bilalarifhussain@gmail.com{" "}
+                  <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+0000000000"
                 >
                   +000 (123) 456 88 <i className="far fa-arrow-right" />
                 </a>
