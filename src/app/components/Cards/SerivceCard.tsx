@@ -10,7 +10,14 @@ const SerivceCard = (props: {
   const { image, title, description } = props;
 
   return (
-    <Box sx={{ width: "180px", backgroundColor: "#FFFFFF" }}>
+    <Box
+      sx={{
+        width: "180px",
+        backgroundColor: "#FFFFFF",
+        boxShadow: "0px 1px 4px rgba(0, 0, 0, 0.1)",
+        borderRadius: "8px",
+      }}
+    >
       <Box>
         <img width={"100%"} src={image} />
       </Box>
@@ -31,3 +38,15 @@ const SerivceCard = (props: {
 };
 
 export default SerivceCard;
+
+/* Rectangle 10 */
+
+// position: absolute;
+// width: 183px;
+// height: 303px;
+// left: 479px;
+// top: 804px;
+
+// background: #FFFFFF;
+// box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+// border-radius: 8px;

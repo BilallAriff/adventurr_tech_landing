@@ -6,6 +6,7 @@ import Header from "./sections/Header/Header";
 import Services from "./sections/Services/Services";
 import ToolsAndTechnology from "./sections/ToolsAndTechnology/ToolsAndTechnology";
 import Pricing from "./sections/Pricing/Pricing";
+import Blogs from "./sections/Blogs/Blogs";
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
         </Grid>
         <Grid md={12}>
           <Pricing />
+        </Grid>
+        <Grid md={12}>
+          <Blogs />
         </Grid>
       </Grid>
     </>
